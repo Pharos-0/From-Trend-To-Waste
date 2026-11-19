@@ -1,0 +1,10 @@
+# Dashboard look (read when Streamlit runs from the repo root): project colours, no developer toolbar
+[theme]
+base = "light"
+primaryColor = "#C4663A"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

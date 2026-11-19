@@ -1,0 +1,13 @@
+# Raw data: VISUELLE 2.0 comes from the authors' request form; survey exports are personal data. Never commit.
+visuelle2/
+data/
+outputs/models/
+# Per-product VISUELLE tables are close to the licensed raw data
+outputs/tables/vis_test_leftover_predictions.csv
+outputs/tables/vis_test_weekly_forecast.csv
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/

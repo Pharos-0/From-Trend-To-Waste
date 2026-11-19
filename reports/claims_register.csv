@@ -1,0 +1,164 @@
+claim_id,claim,value,source_or_script,date_verified
+cust_cards_excluded,Card IDs excluded (bought in more than 10 shops: shop or generic cards),16,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_k,Customer segments (k-means on RFM features),4,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_md_lo_hi,Markdown share: once a year or less vs monthly or more,0.233 vs 0.365,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_md_share,Share of purchases (with known discount) made on markdown,0.267961,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_n,Loyalty-card customers analysed (Dec 2016 - Feb 2020),657813,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_one_day,Share of customers with a single purchase day,0.545033,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_rho_md,Spearman: purchase frequency vs markdown share,0.16785,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_rho_sl,Spearman: purchase frequency vs short-lived share,0.193738,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_sl_lo_hi,Short-lived share: once a year or less vs monthly or more,0.038 vs 0.042,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_top10_units,Share of units bought by the top 10% of customers,0.441668,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_top20_units,Share of units bought by the top 20% of customers,0.607486,outputs/tables/vis_customers_summary.json,2026-11-18
+cust_top_segment,Highest-CLTV segment: share of customers / units / spend,"Frequent, active: 0.152 / 0.498 / 0.486",outputs/tables/vis_customers_summary.json,2026-11-18
+dq_cards_excluded,Customer IDs excluded as shop or generic cards (more than 10 shops),16,outputs/tables/data_quality_log.csv,2026-11-18
+dq_checks,Data-quality checks recorded in the cleaning log,18,outputs/tables/data_quality_log.csv,2026-11-18
+dq_vis_negative_cells,VISUELLE negative weekly sales cells clipped to 0,3386,outputs/tables/data_quality_log.csv,2026-11-18
+fin_days_inventory,Days of inventory (average stock / daily units sold),45.816,outputs/tables/vis_financial_statement.csv,2026-11-18
+fin_gm_cost50,"Gross margin on goods sold, assuming cost = 50% of full price",0.443855,outputs/tables/vis_financial_statement.csv,2026-11-18
+fin_margin_unsold_cost50,"Margin if unsold stock is not recovered, assuming cost = 50% of full price",0.187146,outputs/tables/vis_financial_statement.csv,2026-11-18
+fin_markdown_rate,"Markdown cost as share of full-price value of goods sold, all seasons",0.100954,outputs/tables/vis_financial_statement.csv,2026-11-18
+fin_policy_gp_cost50,"Week-2 rule: change in gross profit after unsold stock (2019, cost = 50% of full price)",0.0869122,outputs/tables/vis_financial_policy.csv,2026-11-18
+fin_policy_gp_range,"Week-2 rule: change in gross profit after unsold stock, cost 40% / 60% of full price",0.0352 / 0.5172,outputs/tables/vis_financial_policy.csv,2026-11-18
+fin_stock_to_sales,"Closing (unsold) stock at full price / net revenue, all seasons",0.516337,outputs/tables/vis_financial_statement.csv,2026-11-18
+fin_turnover,Inventory turnover over 12 weeks (units sold / average stock),1.83342,outputs/tables/vis_financial_statement.csv,2026-11-18
+gt_prelaunch_with,"Pre-launch 12-week sales forecast WAPE, with Google Trends",0.336085,outputs/tables/trends_summary.json,2026-11-18
+gt_prelaunch_without,"Pre-launch 12-week sales forecast WAPE, without Google Trends",0.334926,outputs/tables/trends_summary.json,2026-11-18
+gt_week2_with,"Week-2 weekly WAPE, with Google Trends",0.393809,outputs/tables/trends_summary.json,2026-11-18
+gt_week2_without,"Week-2 weekly WAPE, without Google Trends",0.388585,outputs/tables/trends_summary.json,2026-11-18
+lc_demand_at_md,"All marked-down products: median weekly demand at first markdown, as share of peak",0.533333,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_first_md_week,All marked-down products: median first markdown week,8,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_k,"Number of lifecycle clusters (k-means, silhouette)",4,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_md_after_half,All marked-down products: share cut only after demand fell below half of peak,0.43619,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_md_share,Share of products marked down (average discount >= 15%) within 12 weeks,0.56006,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_n,Products in the lifecycle sample (at least 30 units in 12 weeks),4687,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_other_md_after_half,Other products marked down only after demand fell below half of peak,0.430878,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_peak_first3,Share of products whose sales peak in weeks 1-3,0.697034,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_short_lived_n,Short-lived products,176,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_short_lived_share,Share of products that are short-lived,0.0375507,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_sl_md_after_half,Short-lived products marked down only after demand fell below half of peak,0.593023,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_sl_weeks_peak_to_md,Short-lived products: median weeks from peak to first markdown,3,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_sl_weeks_to_half,Short-lived products: median weeks from peak to half of peak,2,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lc_units_on_md,Share of 12-week units sold in weeks with >= 15% average discount,0.20403,outputs/tables/vis_lifecycle_summary.json,2026-11-18
+lit_emf_recycle,"Clothing remade into new clothing (Ellen MacArthur Foundation, 2017)",less than 1%,https://www.ellenmacarthurfoundation.org/news/one-garbage-truck-of-textiles-wasted-every-second-report-creates-vision-for-change,2026-11-18
+lit_emf_truck,"Textiles landfilled or burned (Ellen MacArthur Foundation, A New Textiles Economy, 2017)",the equivalent of one garbage truck every second,https://www.ellenmacarthurfoundation.org/news/one-garbage-truck-of-textiles-wasted-every-second-report-creates-vision-for-change,2026-11-18
+lit_unep_ghg,Textile industry share of global greenhouse-gas emissions (UNEP),2-8%,https://www.unep.org/news-and-stories/press-release/un-alliance-sustainable-fashion-addresses-damage-fast-fashion,2026-11-18
+lit_wrap_co2,UK clothing whole-life carbon footprint per tonne (WRAP 2017),23.2 t CO2e per tonne (2016),https://www.wrap.ngo/sites/default/files/2020-10/WRAP-valuing-our-clothes-the-cost-of-uk-fashion_WRAP.pdf,2026-11-18
+lit_wrap_life,Average UK garment lifetime (WRAP),2.2 years (2012); 3.3 years (later update),https://www.wrap.ngo/resources/report/valuing-our-clothes-true-cost-how-we-design-use-and-dispose-clothing-uk-2012,2026-11-18
+pilot_effect_pp,Expected drop in shop leftover share under the main policy (pp),2.81704,outputs/tables/pilot_design.json,2026-11-18
+pilot_flagged_per_season,"Flagged products per season (2019 test seasons, min)",96,outputs/tables/pilot_design.json,2026-11-18
+pilot_n_ancova,"Shops per arm for 80% power (full effect, ANCOVA)",43,outputs/tables/pilot_design.json,2026-11-18
+pilot_n_half,"Shops per arm for 80% power (half the effect, ANCOVA)",168,outputs/tables/pilot_design.json,2026-11-18
+pilot_n_simple,"Shops per arm for 80% power (full effect, simple t-test)",44,outputs/tables/pilot_design.json,2026-11-18
+pilot_prod_effect,Flagged products: expected drop in leftover share (pp),14.0552,outputs/tables/pilot_design.json,2026-11-18
+pilot_prod_n,Flagged products per arm for 80% power (full effect),8,outputs/tables/pilot_design.json,2026-11-18
+pilot_prod_n_half,Flagged products per arm for 80% power (half effect),28,outputs/tables/pilot_design.json,2026-11-18
+pilot_r,Correlation of shop leftover share with previous year's same season,0.155942,outputs/tables/pilot_design.json,2026-11-18
+pilot_sd_pp,Between-shop SD of leftover share within a season (pp),4.63906,outputs/tables/pilot_design.json,2026-11-18
+r2_cat_leftover_range,Leftover share range across categories (larger 75%),0.283 (jumpsuit) to 0.343 (short cardigan),outputs/review2/review2_data.json,2026-11-18
+r2_dps_deciles,"Mean sell-through, fewest vs most deliveries per shop (bottom/top 10%)",0.847 vs 0.635,outputs/review2/review2_data.json,2026-11-18
+r2_dps_rho,"Spearman, deliveries per shop vs 12-week sell-through",-0.541655,outputs/review2/review2_data.json,2026-11-18
+r2_early_deciles,"Mean sell-through, slowest vs fastest early sellers (bottom/top 10%)",0.623 vs 0.819,outputs/review2/review2_data.json,2026-11-18
+r2_early_rho,"Spearman, weeks 1-2 sales / season deliveries vs 12-week sell-through",0.511314,outputs/review2/review2_data.json,2026-11-18
+risk_auc_2wk,After 2 weeks: best test ROC-AUC,0.712931,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_auc_plan,"Before launch, product + buying plan: logistic regression test ROC-AUC",0.643751,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_auc_plan_gb,"Before launch, product + buying plan: gradient boosting test ROC-AUC",0.694002,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_auc_product,"Before launch, product only: logistic regression test ROC-AUC",0.626893,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_auc_tree,"Decision tree (depth 4) test ROC-AUC, before launch",0.609103,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_base_rate,High-leftover rate among 2019 test products (sell-through < 60%),0.103903,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+risk_or_deepest,"Odds ratio of high leftover, deepest vs second-quartile initial units per shop",1.30 (95% CI 1.05-1.60),outputs/tables/vis_risk_odds_ratios.csv,2026-11-18
+risk_p10_plan,Before launch (with plan): share high-leftover among top-10% risk scores,0.174603,outputs/tables/vis_risk_model_metrics.csv,2026-11-18
+sim_co2e,"Main policy: CO2e avoided, tonnes (estimate range)",27-420,outputs/tables/vis_summary.json + src/env_factors.py,2026-11-18
+sim_leftover_change,"Main policy (A+B, 30% cut, 20% markdown): change in leftover units",-0.119259,outputs/tables/vis_summary.json,2026-11-18
+sim_revenue_change,Main policy: change in revenue (index),-0.0067186,outputs/tables/vis_summary.json,2026-11-18
+sim_sold_change,Main policy: change in units sold,0.00810464,outputs/tables/vis_summary.json,2026-11-18
+sim_tonnes,"Main policy: textile avoided, tonnes (estimate range)",8-17,outputs/tables/vis_summary.json + src/env_factors.py,2026-11-18
+sim_units_avoided,Main policy: leftover units avoided (2019 test seasons),33584.8,outputs/tables/vis_summary.json,2026-11-18
+sv_age_18_24,Survey: share aged 18-24,0.737705,outputs/tables/survey_descriptives.json,2026-11-18
+sv_att_q19a,Survey: agree (4-5) 'Knows clothes use water/energy',0.696721,outputs/tables/survey_descriptives.json,2026-11-18
+sv_att_q19b,Survey: agree (4-5) 'Fast fashion harms environment',0.827869,outputs/tables/survey_descriptives.json,2026-11-18
+sv_att_q19c,Survey: agree (4-5) 'Would buy fewer if they lasted longer',0.778689,outputs/tables/survey_descriptives.json,2026-11-18
+sv_att_q19d,Survey: agree (4-5) 'Would pay more for longer-lasting',0.516393,outputs/tables/survey_descriptives.json,2026-11-18
+sv_att_q19e,Survey: agree (4-5) 'Brands should produce fewer items',0.713115,outputs/tables/survey_descriptives.json,2026-11-18
+sv_bridge_2_4_times_a_year,"Survey vs Nuna Lie customers, '2-4 times a year': survey discount influence / Nuna Lie markdown share",3.79 / 0.2722,outputs/tables/survey_vis_bridge_by_frequency.csv,2026-11-18
+sv_bridge_5_11_times_a_year,"Survey vs Nuna Lie customers, '5-11 times a year': survey discount influence / Nuna Lie markdown share",4.05 / 0.3033,outputs/tables/survey_vis_bridge_by_frequency.csv,2026-11-18
+sv_bridge_monthly_or_more,"Survey vs Nuna Lie customers, 'Monthly or more': survey discount influence / Nuna Lie markdown share",4.08 / 0.3649,outputs/tables/survey_vis_bridge_by_frequency.csv,2026-11-18
+sv_bridge_once_a_year_or_less,"Survey vs Nuna Lie customers, 'Once a year or less': survey discount influence / Nuna Lie markdown share",3.17 / 0.2331,outputs/tables/survey_vis_bridge_by_frequency.csv,2026-11-18
+sv_conj_n,Survey: respondents in the conjoint (straight-liners excluded),121,outputs/tables/survey_descriptives.json,2026-11-18
+sv_direct_life,"Survey: mean rating gain, long-lasting Rs 1,499 vs one-season Rs 799 (timeless, no label)",0.578512,outputs/tables/survey_descriptives.json,2026-11-18
+sv_direct_life_lower,"Survey: share rating the one-season Rs 799 option higher (timeless, no label)",0.355372,outputs/tables/survey_descriptives.json,2026-11-18
+sv_direct_life_share,"Survey: share rating the long-lasting Rs 1,499 option higher (timeless, no label)",0.479339,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_donate,Survey: share who donate often/always,0.565574,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_hand_down,Survey: share who hand down often/always,0.516393,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_keep_unused,Survey: share who keep unused often/always,0.42623,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_recycle_take_back,Survey: share who recycle / take-back often/always,0.114754,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_sell_resell,Survey: share who sell / resell often/always,0.114754,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_throw_away,Survey: share who throw away often/always,0.122951,outputs/tables/survey_descriptives.json,2026-11-18
+sv_disp_top,Survey: most common disposal route (often/always),Donate,outputs/tables/survey_descriptives.json,2026-11-18
+sv_imp_lifespan,Survey conjoint: importance of Lifespan,0.314249,outputs/tables/survey_descriptives.json,2026-11-18
+sv_imp_price,Survey conjoint: importance of Price,0.234855,outputs/tables/survey_descriptives.json,2026-11-18
+sv_imp_style_trendy,Survey conjoint: importance of Style (trendy),0.237925,outputs/tables/survey_descriptives.json,2026-11-18
+sv_imp_sustainability_label,Survey conjoint: importance of Sustainability label,0.212971,outputs/tables/survey_descriptives.json,2026-11-18
+sv_keep_mean,Survey: mean years a garment is kept (band midpoints),2.28893,outputs/tables/survey_descriptives.json,2026-11-18
+sv_keep_over_3y,Survey: share keeping a garment over 3 years,0.303279,outputs/tables/survey_descriptives.json,2026-11-18
+sv_keep_under_1y,Survey: share keeping a garment under 1 year,0.221311,outputs/tables/survey_descriptives.json,2026-11-18
+sv_moe,Survey: 95% margin of error for a share,0.088725,outputs/tables/survey_quality.json,2026-11-18
+sv_motive_discount,Survey: mean influence of discount on buying (1-5),3.94262,outputs/tables/survey_descriptives.json,2026-11-18
+sv_motive_environment,Survey: mean influence of environment on buying (1-5),2.72951,outputs/tables/survey_descriptives.json,2026-11-18
+sv_motive_novelty,Survey: mean influence of novelty on buying (1-5),3.40164,outputs/tables/survey_descriptives.json,2026-11-18
+sv_motive_quality,Survey: mean influence of quality on buying (1-5),3.7541,outputs/tables/survey_descriptives.json,2026-11-18
+sv_motive_trend,Survey: mean influence of trend on buying (1-5),3.04098,outputs/tables/survey_descriptives.json,2026-11-18
+sv_n,Survey: respondents who consented,122,outputs/tables/survey_quality.json,2026-11-18
+sv_never_donate,Survey: share who never donate,0.106557,outputs/tables/survey_descriptives.json,2026-11-18
+sv_never_hand_down,Survey: share who never hand down,0.139344,outputs/tables/survey_descriptives.json,2026-11-18
+sv_never_keep_unused,Survey: share who never keep unused,0.180328,outputs/tables/survey_descriptives.json,2026-11-18
+sv_never_recycle_take_back,Survey: share who never recycle / take-back,0.467213,outputs/tables/survey_descriptives.json,2026-11-18
+sv_never_sell_resell,Survey: share who never sell / resell,0.532787,outputs/tables/survey_descriptives.json,2026-11-18
+sv_never_throw_away,Survey: share who never throw away,0.5,outputs/tables/survey_descriptives.json,2026-11-18
+sv_p_age_trend,"Survey: p-value, age band vs trend influence",0.175673,outputs/tables/survey_descriptives.json,2026-11-18
+sv_p_freq_trend,"Survey: p-value, buying frequency vs trend influence",0.00216099,outputs/tables/survey_descriptives.json,2026-11-18
+sv_pw_certified,Survey conjoint: effect of Certified sustainable (vs no label) on 1-10 rating,1.15 (95% CI 0.88 to 1.42),outputs/tables/survey_descriptives.json,2026-11-18
+sv_pw_long_life,Survey conjoint: effect of Lasts 3+ years (vs 1 season) on 1-10 rating,1.67 (95% CI 1.31 to 2.02),outputs/tables/survey_descriptives.json,2026-11-18
+sv_pw_price_high,"Survey conjoint: effect of Price Rs 1,499 (vs Rs 799) on 1-10 rating",-1.10 (95% CI -1.33 to -0.86),outputs/tables/survey_descriptives.json,2026-11-18
+sv_pw_trendy,Survey conjoint: effect of Trendy (vs timeless) on 1-10 rating,0.83 (95% CI 0.53 to 1.13),outputs/tables/survey_descriptives.json,2026-11-18
+sv_rho_age_trend,"Survey: Spearman, age band vs trend influence",-0.123405,outputs/tables/survey_descriptives.json,2026-11-18
+sv_rho_freq_discount,"Survey: Spearman, buying frequency vs discount influence",0.0999172,outputs/tables/survey_descriptives.json,2026-11-18
+sv_rho_freq_trend,"Survey: Spearman, buying frequency vs trend influence",0.27514,outputs/tables/survey_descriptives.json,2026-11-18
+sv_rho_freq_trend_v2,"Survey: Spearman frequency vs trend, edited-form responses only",0.199 (p 0.047),outputs/tables/survey_descriptives.json,2026-11-18
+sv_seg_environment_quality_driven,Survey segment 'Environment & Quality-driven': people / keep years / often throw away / buys fast fashion,34 / 2.36 / 0.118 / 0.500,outputs/tables/survey_segments.csv,2026-11-18
+sv_seg_low_involvement,Survey segment 'Low-involvement': people / keep years / often throw away / buys fast fashion,30 / 2.87 / 0.000 / 0.567,outputs/tables/survey_segments.csv,2026-11-18
+sv_seg_novelty_trend_driven,Survey segment 'Novelty & Trend-driven': people / keep years / often throw away / buys fast fashion,58 / 1.95 / 0.190 / 0.845,outputs/tables/survey_segments.csv,2026-11-18
+sv_students,Survey: share students,0.483607,outputs/tables/survey_descriptives.json,2026-11-18
+sv_top_motive,Survey: strongest purchase motive (mean 1-5),Discount,outputs/tables/survey_descriptives.json,2026-11-18
+sv_trend_v1,"Survey: mean trend influence, form v1 original",2.182,outputs/tables/survey_descriptives.json,2026-11-18
+sv_trend_v2,"Survey: mean trend influence, form v2 edited",3.23,outputs/tables/survey_descriptives.json,2026-11-18
+sv_unplanned_3plus,Survey: share (of Q9 answers) buying 3+ unplanned items in 3 months,0.666667,outputs/tables/survey_descriptives.json,2026-11-18
+sv_unworn_mean,Survey: mean share of wardrobe unworn in 12 months,0.25377,outputs/tables/survey_descriptives.json,2026-11-18
+sv_unworn_over_25,Survey: share with more than 25% of wardrobe unworn,0.352459,outputs/tables/survey_descriptives.json,2026-11-18
+sv_versions,Survey: responses by form version,"{""v2 edited"": 100, ""v1 original"": 22}",outputs/tables/survey_quality.json,2026-11-18
+sv_wears_under_10,Survey: share wearing a fast-fashion item 10 times or fewer,0.360656,outputs/tables/survey_descriptives.json,2026-11-18
+sv_wtp_certified,Survey conjoint: willingness to pay (Rs) for Certified sustainable (vs no label),737 (95% CI 543 to 991),outputs/tables/survey_descriptives.json,2026-11-18
+sv_wtp_long_life,Survey conjoint: willingness to pay (Rs) for Lasts 3+ years (vs 1 season),1065 (95% CI 775 to 1450),outputs/tables/survey_descriptives.json,2026-11-18
+sv_wtp_trendy,Survey conjoint: willingness to pay (Rs) for Trendy (vs timeless),531 (95% CI 331 to 784),outputs/tables/survey_descriptives.json,2026-11-18
+trend_peak_month,"Seasonal peak month (index, 2018-2019)",7 (1.43),outputs/tables/trends_summary.json,2026-11-18
+trend_trough_month,"Seasonal trough month (index, 2018-2019)",3 (0.73),outputs/tables/trends_summary.json,2026-11-18
+trend_yoy,"Loyalty-card units, Jun-Dec 2019 vs same weeks 2018",0.413305,outputs/tables/trends_summary.json,2026-11-18
+vis_fc_best,Best 2-week forecaster,Gradient boosting (no Google Trends),outputs/tables/vis_summary.json,2026-11-18
+vis_fc_naive_wape,Naive forecaster weekly WAPE (test seasons),0.601681,outputs/tables/vis_summary.json,2026-11-18
+vis_fc_total_wape,Best forecaster WAPE on remaining-season total,0.260714,outputs/tables/vis_summary.json,2026-11-18
+vis_fc_wape,Best forecaster weekly WAPE (test seasons),0.388585,outputs/tables/vis_summary.json,2026-11-18
+vis_left_precision,Flag precision for high-leftover products,0.564767,outputs/tables/vis_summary.json,2026-11-18
+vis_left_precision_naive,Flag precision (naive forecast),0.25188,outputs/tables/vis_summary.json,2026-11-18
+vis_left_recall,High-leftover products caught at week 2 (recall),0.553299,outputs/tables/vis_summary.json,2026-11-18
+vis_left_recall_naive,High-leftover products caught at week 2 (naive forecast),0.340102,outputs/tables/vis_summary.json,2026-11-18
+vis_leftover_share,VISUELLE: share of delivered units unsold after 12 weeks,0.315514,outputs/tables/vis_summary.json,2026-11-18
+vis_other_leftover,"VISUELLE: leftover share, other products",0.315357,outputs/tables/vis_summary.json,2026-11-18
+vis_sl_leftover,"VISUELLE: leftover share, short-lived products",0.229148,outputs/tables/vis_summary.json,2026-11-18
+vis_sl_md_after_half,VISUELLE short-lived products marked down after demand halved,0.519231,outputs/tables/vis_summary.json,2026-11-18
+vis_sl_stock_avail,VISUELLE: short-lived products' post-peak shop-weeks with stock still available,0.938587,outputs/tables/vis_summary.json,2026-11-18
+vis_st_corr,Week-2 predicted vs actual sell-through correlation (best model),0.643363,outputs/tables/vis_summary.json,2026-11-18
+vis_st_corr_naive,Week-2 predicted vs actual sell-through correlation (naive),0.368939,outputs/tables/vis_summary.json,2026-11-18
+vis_stockout_weeks,VISUELLE: share of shop-weeks ending at zero stock,0.0198183,outputs/tables/vis_summary.json,2026-11-18
+vis_ttp_rho,"VISUELLE: Spearman correlation, time-to-peak-sales vs leftover share",-0.0224252,outputs/tables/vis_summary.json,2026-11-18
+vis_uplift_fd,Sales uplift per +10pp discount (first differences),0.136661,outputs/tables/vis_summary.json,2026-11-18
+vis_uplift_fe,Sales uplift per +10pp discount (fixed effects),0.0921538,outputs/tables/vis_summary.json,2026-11-18
